@@ -1,41 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Implementazione
+﻿namespace Implementazione
 {
     internal class Stazione
     {
+        private string numeroSeriale;
         private Gru gru;
 
-        private string numeroSeriale;
-
-        public string getNumeroSeriale
+        public Gru Gru
         {
-
+            get { return gru; }
+            set { gru = value; }
         }
 
-        public void alzaBraccio
+        public string NumeroSeriale
         {
-
+            get { return numeroSeriale; }
         }
 
-        public void abbassaBraccio
+        public void alzaBraccio()
         {
-
+            gru.alzaBraccio();
         }
 
-        public void posizioneSicurezza
+        public void abbassaBraccio()
         {
+            gru.abbassaBraccio();
+        }
 
+        public void posizioneSicurezza()
+        {
+            gru.posizioneSicurezza();
         }
 
 
-        public Stazione(string numeroSeriale)
+        public Stazione(string numeroSeriale, Gru gru)
         {
-
+            this.numeroSeriale = numeroSeriale;
+            this.gru = gru;
         }
     }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Implementazione
+﻿namespace Implementazione
 {
     internal class Gru
     {
@@ -15,55 +9,63 @@ namespace Implementazione
         private int altezzaMinima;
         private int altezzaBraccio;
 
-        public int getAltezzaBraccio
+        public int AltezzaBraccio
         {
-
+            get { return altezzaBraccio; }
+            set { altezzaBraccio = value; }
         }
-        public string getNumeroSeriale
+        public string NumeroSeriale
         {
-
-        }
-
-        public string getProduttore
-        {
-
+            get { return numeroSeriale; }
         }
 
-        public int getPesoMassimo
+        public string Produttore
         {
-
+            get { return produttore; }
         }
 
-        public int getAltezzaMassima
+        public int PesoMassimo
         {
-
+            get { return pesoMassimo; }
         }
 
-        public int getAltezzaMinima
+        public int AltezzaMassima
         {
+            get { return altezzaMassima; }
+            set { altezzaMassima = value; }
+        }
 
+        public int AltezzaMinima
+        {
+            get { return altezzaMinima; }
+            set { altezzaMinima = value; }
         }
 
 
-        public void alzaBraccio
+        public void alzaBraccio()
         {
-
+            AltezzaBraccio +=20;
         }
 
-        public void abbassaBraccio
+        public void abbassaBraccio()
         {
-
+            AltezzaBraccio -=20;
         }
 
-        public void posizioneSicurezza
+        public void posizioneSicurezza()
         {
-
+            AltezzaBraccio = AltezzaMinima;
         }
 
 
         public Gru(string numeroSeriale, string produttore, int pesoMassimo, int altezzaMassima, int altezzaMinima)
         {
-
+            this.numeroSeriale = numeroSeriale;
+            this.produttore = produttore;
+            this.pesoMassimo = pesoMassimo;
+            this.altezzaMassima = altezzaMassima;
+            this.altezzaMinima = altezzaMinima;
+            this.altezzaBraccio = altezzaMinima;
         }
     }
 }
