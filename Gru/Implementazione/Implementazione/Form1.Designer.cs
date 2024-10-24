@@ -30,16 +30,16 @@
         {
             Alza = new Button();
             Abbassa = new Button();
-            button3 = new Button();
+            RESET = new Button();
             label1 = new Label();
             label2 = new Label();
-            button1 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            Applica = new Button();
+            Altezza_Minima = new TextBox();
+            Altezza_Massima = new TextBox();
+            Braccio = new PictureBox();
+            Gancio = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)Braccio).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Gancio).BeginInit();
             SuspendLayout();
             // 
             // Alza
@@ -64,14 +64,15 @@
             Abbassa.UseVisualStyleBackColor = true;
             Abbassa.Click += Abbassa_Click;
             // 
-            // button3
+            // RESET
             // 
-            button3.Location = new Point(204, 470);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 2;
-            button3.Text = "RESET";
-            button3.UseVisualStyleBackColor = true;
+            RESET.Location = new Point(204, 470);
+            RESET.Name = "RESET";
+            RESET.Size = new Size(75, 23);
+            RESET.TabIndex = 2;
+            RESET.Text = "RESET";
+            RESET.UseVisualStyleBackColor = true;
+            RESET.Click += RESET_Click;
             // 
             // label1
             // 
@@ -93,68 +94,69 @@
             label2.TabIndex = 4;
             label2.Text = "Altezza_Massima";
             // 
-            // button1
+            // Applica
             // 
-            button1.Location = new Point(242, 130);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 5;
-            button1.Text = "APPLICA";
-            button1.UseVisualStyleBackColor = true;
+            Applica.Location = new Point(242, 130);
+            Applica.Name = "Applica";
+            Applica.Size = new Size(75, 23);
+            Applica.TabIndex = 5;
+            Applica.Text = "APPLICA";
+            Applica.UseVisualStyleBackColor = true;
+            Applica.Click += Applica_Click;
             // 
-            // textBox1
+            // Altezza_Minima
             // 
-            textBox1.Location = new Point(48, 76);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(160, 23);
-            textBox1.TabIndex = 6;
+            Altezza_Minima.Location = new Point(48, 76);
+            Altezza_Minima.Name = "Altezza_Minima";
+            Altezza_Minima.Size = new Size(160, 23);
+            Altezza_Minima.TabIndex = 6;
             // 
-            // textBox2
+            // Altezza_Massima
             // 
-            textBox2.Location = new Point(48, 186);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(172, 23);
-            textBox2.TabIndex = 7;
+            Altezza_Massima.Location = new Point(48, 186);
+            Altezza_Massima.Name = "Altezza_Massima";
+            Altezza_Massima.Size = new Size(172, 23);
+            Altezza_Massima.TabIndex = 7;
             // 
-            // pictureBox1
+            // Braccio
             // 
-            pictureBox1.Image = Properties.Resources.images;
-            pictureBox1.Location = new Point(711, 105);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(386, 386);
-            pictureBox1.TabIndex = 8;
-            pictureBox1.TabStop = false;
+            Braccio.Image = Properties.Resources.images;
+            Braccio.Location = new Point(711, 105);
+            Braccio.Name = "Braccio";
+            Braccio.Size = new Size(371, 388);
+            Braccio.TabIndex = 8;
+            Braccio.TabStop = false;
             // 
-            // pictureBox2
+            // Gancio
             // 
-            pictureBox2.Image = Properties.Resources.image_2;
-            pictureBox2.Location = new Point(952, 171);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(100, 50);
-            pictureBox2.TabIndex = 9;
-            pictureBox2.TabStop = false;
+            Gancio.Image = Properties.Resources.image_2;
+            Gancio.Location = new Point(952, 170);
+            Gancio.Name = "Gancio";
+            Gancio.Size = new Size(100, 50);
+            Gancio.TabIndex = 9;
+            Gancio.TabStop = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1184, 661);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(button1);
+            Controls.Add(Gancio);
+            Controls.Add(Braccio);
+            Controls.Add(Altezza_Massima);
+            Controls.Add(Altezza_Minima);
+            Controls.Add(Applica);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(button3);
+            Controls.Add(RESET);
             Controls.Add(Abbassa);
             Controls.Add(Alza);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Braccio).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Gancio).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -163,13 +165,13 @@
 
         private Button Alza;
         private Button Abbassa;
-        private Button button3;
+        private Button RESET;
         private Label label1;
         private Label label2;
-        private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
+        private Button Applica;
+        private TextBox Altezza_Minima;
+        private TextBox Altezza_Massima;
+        private PictureBox Braccio;
+        private PictureBox Gancio;
     }
 }

@@ -12,7 +12,11 @@
         public int AltezzaBraccio
         {
             get { return altezzaBraccio; }
-            set { altezzaBraccio = value; }
+            set 
+            { 
+                if (value <= AltezzaMinima && value >= AltezzaMassima)
+                    altezzaBraccio = value; 
+            }
         }
         public string NumeroSeriale
         {
@@ -32,24 +36,32 @@
         public int AltezzaMassima
         {
             get { return altezzaMassima; }
-            set { altezzaMassima = value; }
+            set 
+            {
+                if (value >= 170)
+                    altezzaMassima = value; 
+            }
         }
 
         public int AltezzaMinima
         {
             get { return altezzaMinima; }
-            set { altezzaMinima = value; }
+            set
+            {
+                if (value <= 420)
+                    altezzaMinima = value;
+            }
         }
 
 
         public void alzaBraccio()
         {
-            AltezzaBraccio +=20;
+            AltezzaBraccio -=20;
         }
 
         public void abbassaBraccio()
         {
-            AltezzaBraccio -=20;
+            AltezzaBraccio +=20;
         }
 
         public void posizioneSicurezza()
@@ -65,7 +77,6 @@
             this.pesoMassimo = pesoMassimo;
             this.altezzaMassima = altezzaMassima;
             this.altezzaMinima = altezzaMinima;
-            this.altezzaBraccio = altezzaMinima;
         }
     }
 }
