@@ -38,7 +38,7 @@
             get { return altezzaMassima; }
             set 
             {
-                if (value >= 170)
+                if (value >= 170 && value <= 420)
                     altezzaMassima = value; 
             }
         }
@@ -48,7 +48,7 @@
             get { return altezzaMinima; }
             set
             {
-                if (value <= 420)
+                if (value >= 170 && value <= 420)
                     altezzaMinima = value;
             }
         }
@@ -56,12 +56,14 @@
 
         public void alzaBraccio()
         {
-            AltezzaBraccio -=20;
+            if (AltezzaBraccio - 10 >= AltezzaMassima)
+                AltezzaBraccio -= 10;
         }
 
         public void abbassaBraccio()
         {
-            AltezzaBraccio +=20;
+            if (AltezzaBraccio + 10 <= AltezzaMinima)
+                AltezzaBraccio += 10;
         }
 
         public void posizioneSicurezza()
@@ -77,6 +79,7 @@
             this.pesoMassimo = pesoMassimo;
             this.altezzaMassima = altezzaMassima;
             this.altezzaMinima = altezzaMinima;
+            this.altezzaBraccio = altezzaMassima;
         }
     }
 }

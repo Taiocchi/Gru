@@ -30,7 +30,7 @@
         {
             Alza = new Button();
             Abbassa = new Button();
-            RESET = new Button();
+            Posizione_Sicurezza = new Button();
             label1 = new Label();
             label2 = new Label();
             Applica = new Button();
@@ -44,78 +44,82 @@
             // 
             // Alza
             // 
-            Alza.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Alza.Location = new Point(48, 414);
+            Alza.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Alza.Location = new Point(70, 368);
             Alza.Name = "Alza";
-            Alza.Size = new Size(131, 61);
+            Alza.Size = new Size(73, 102);
             Alza.TabIndex = 0;
-            Alza.Text = "Alza";
+            Alza.Text = "⇧";
             Alza.UseVisualStyleBackColor = true;
             Alza.Click += Alza_Click;
             // 
             // Abbassa
             // 
-            Abbassa.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Abbassa.Location = new Point(48, 500);
+            Abbassa.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Abbassa.Location = new Point(70, 501);
             Abbassa.Name = "Abbassa";
-            Abbassa.Size = new Size(131, 62);
+            Abbassa.Size = new Size(73, 102);
             Abbassa.TabIndex = 1;
-            Abbassa.Text = "Abbassa";
+            Abbassa.Text = "⇩";
             Abbassa.UseVisualStyleBackColor = true;
             Abbassa.Click += Abbassa_Click;
             // 
-            // RESET
+            // Posizione_Sicurezza
             // 
-            RESET.Location = new Point(204, 470);
-            RESET.Name = "RESET";
-            RESET.Size = new Size(75, 23);
-            RESET.TabIndex = 2;
-            RESET.Text = "RESET";
-            RESET.UseVisualStyleBackColor = true;
-            RESET.Click += RESET_Click;
+            Posizione_Sicurezza.BackColor = Color.Red;
+            Posizione_Sicurezza.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Posizione_Sicurezza.Location = new Point(211, 441);
+            Posizione_Sicurezza.Name = "Posizione_Sicurezza";
+            Posizione_Sicurezza.Size = new Size(151, 76);
+            Posizione_Sicurezza.TabIndex = 2;
+            Posizione_Sicurezza.Text = "STOP";
+            Posizione_Sicurezza.UseVisualStyleBackColor = false;
+            Posizione_Sicurezza.Click += Posizione_Sicurezza_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(48, 43);
+            label1.Location = new Point(52, 47);
             label1.Name = "label1";
-            label1.Size = new Size(160, 30);
+            label1.Size = new Size(252, 30);
             label1.TabIndex = 3;
-            label1.Text = "Altezza_Minima";
+            label1.Text = "Altezza_Minima (280-530)";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(48, 153);
+            label2.Location = new Point(52, 157);
             label2.Name = "label2";
-            label2.Size = new Size(172, 30);
+            label2.Size = new Size(264, 30);
             label2.TabIndex = 4;
-            label2.Text = "Altezza_Massima";
+            label2.Text = "Altezza_Massima (280-530)";
             // 
             // Applica
             // 
-            Applica.Location = new Point(242, 130);
+            Applica.BackColor = Color.LawnGreen;
+            Applica.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Applica.Location = new Point(354, 109);
             Applica.Name = "Applica";
-            Applica.Size = new Size(75, 23);
+            Applica.Size = new Size(119, 43);
             Applica.TabIndex = 5;
             Applica.Text = "APPLICA";
-            Applica.UseVisualStyleBackColor = true;
+            Applica.UseVisualStyleBackColor = false;
             Applica.Click += Applica_Click;
             // 
             // Altezza_Minima
             // 
-            Altezza_Minima.Location = new Point(48, 76);
+            Altezza_Minima.Location = new Point(52, 80);
             Altezza_Minima.Name = "Altezza_Minima";
-            Altezza_Minima.Size = new Size(160, 23);
+            Altezza_Minima.Size = new Size(252, 23);
             Altezza_Minima.TabIndex = 6;
             // 
             // Altezza_Massima
             // 
-            Altezza_Massima.Location = new Point(48, 186);
+            Altezza_Massima.Location = new Point(52, 190);
             Altezza_Massima.Name = "Altezza_Massima";
-            Altezza_Massima.Size = new Size(172, 23);
+            Altezza_Massima.Size = new Size(252, 23);
             Altezza_Massima.TabIndex = 7;
             // 
             // Braccio
@@ -148,7 +152,7 @@
             Controls.Add(Applica);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(RESET);
+            Controls.Add(Posizione_Sicurezza);
             Controls.Add(Abbassa);
             Controls.Add(Alza);
             Margin = new Padding(3, 2, 3, 2);
@@ -165,7 +169,7 @@
 
         private Button Alza;
         private Button Abbassa;
-        private Button RESET;
+        private Button Posizione_Sicurezza;
         private Label label1;
         private Label label2;
         private Button Applica;

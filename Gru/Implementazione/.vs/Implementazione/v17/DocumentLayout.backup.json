@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\taiocchi.21206\\C#\\Gru\\Gru\\Implementazione\\",
+  "WorkspaceRootPath": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\Gru\\Gru\\Implementazione\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|C:\\Users\\taiocchi.21206\\C#\\Gru\\Gru\\Implementazione\\implementazione\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|solutionrelative:implementazione\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|c:\\users\\taiocchi.21206\\c#\\gru\\gru\\implementazione\\implementazione\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|c:\\users\\lucta\\desktop\\informatica\\es bernini (c#)\\gru\\gru\\implementazione\\implementazione\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|solutionrelative:implementazione\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|c:\\users\\taiocchi.21206\\c#\\gru\\gru\\implementazione\\implementazione\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|solutionrelative:implementazione\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|c:\\users\\lucta\\desktop\\informatica\\es bernini (c#)\\gru\\gru\\implementazione\\implementazione\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|solutionrelative:implementazione\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|c:\\users\\taiocchi.21206\\c#\\gru\\gru\\implementazione\\implementazione\\stazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|c:\\users\\lucta\\desktop\\informatica\\es bernini (c#)\\gru\\gru\\implementazione\\implementazione\\stazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|solutionrelative:implementazione\\stazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|c:\\users\\lucta\\desktop\\informatica\\es bernini (c#)\\gru\\gru\\implementazione\\implementazione\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CE9F7AB-E905-4957-BB79-30C052E0EBC1}|Implementazione\\Implementazione.csproj|solutionrelative:implementazione\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\taiocchi.21206\\C#\\Gru\\Gru\\Implementazione\\Implementazione\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\Gru\\Gru\\Implementazione\\Implementazione\\Form1.cs",
               "RelativeDocumentMoniker": "Implementazione\\Form1.cs",
-              "ToolTip": "C:\\Users\\taiocchi.21206\\C#\\Gru\\Gru\\Implementazione\\Implementazione\\Form1.cs*",
-              "RelativeToolTip": "Implementazione\\Form1.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\Gru\\Gru\\Implementazione\\Implementazione\\Form1.cs",
+              "RelativeToolTip": "Implementazione\\Form1.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T10:35:57.023Z",
               "IsPinned": true,
@@ -45,39 +45,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Gru.cs",
+              "DocumentMoniker": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\Gru\\Gru\\Implementazione\\Implementazione\\Gru.cs",
+              "RelativeDocumentMoniker": "Implementazione\\Gru.cs",
+              "ToolTip": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\Gru\\Gru\\Implementazione\\Implementazione\\Gru.cs",
+              "RelativeToolTip": "Implementazione\\Gru.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:42:34.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Stazione.cs",
-              "DocumentMoniker": "C:\\Users\\taiocchi.21206\\C#\\Gru\\Gru\\Implementazione\\Implementazione\\Stazione.cs",
+              "DocumentMoniker": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\Gru\\Gru\\Implementazione\\Implementazione\\Stazione.cs",
               "RelativeDocumentMoniker": "Implementazione\\Stazione.cs",
-              "ToolTip": "C:\\Users\\taiocchi.21206\\C#\\Gru\\Gru\\Implementazione\\Implementazione\\Stazione.cs",
+              "ToolTip": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\Gru\\Gru\\Implementazione\\Implementazione\\Stazione.cs",
               "RelativeToolTip": "Implementazione\\Stazione.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T11:47:08.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Gru.cs",
-              "DocumentMoniker": "C:\\Users\\taiocchi.21206\\C#\\Gru\\Gru\\Implementazione\\Implementazione\\Gru.cs",
-              "RelativeDocumentMoniker": "Implementazione\\Gru.cs",
-              "ToolTip": "C:\\Users\\taiocchi.21206\\C#\\Gru\\Gru\\Implementazione\\Implementazione\\Gru.cs",
-              "RelativeToolTip": "Implementazione\\Gru.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T11:46:41.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\taiocchi.21206\\C#\\Gru\\Gru\\Implementazione\\Implementazione\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\Gru\\Gru\\Implementazione\\Implementazione\\Form1.cs",
               "RelativeDocumentMoniker": "Implementazione\\Form1.cs",
-              "ToolTip": "C:\\Users\\taiocchi.21206\\C#\\Gru\\Gru\\Implementazione\\Implementazione\\Form1.cs [Progettazione]*",
-              "RelativeToolTip": "Implementazione\\Form1.cs [Progettazione]*",
+              "ToolTip": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\Gru\\Gru\\Implementazione\\Implementazione\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "Implementazione\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T11:45:25.164Z",
+              "WhenOpened": "2024-10-24T14:37:06.494Z",
               "EditorCaption": " [Progettazione]"
             }
           ]

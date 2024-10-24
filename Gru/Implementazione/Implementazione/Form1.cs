@@ -17,7 +17,6 @@ namespace Implementazione
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Size = new System.Drawing.Size(1200, 700);
-            gru1.AltezzaBraccio = Gancio.Top;
         }
 
         private void Alza_Click(object sender, EventArgs e)
@@ -31,22 +30,26 @@ namespace Implementazione
             stazione1.abbassaBraccio();
             AggiornaInterfaccia();
         }
+        private void Posizione_Sicurezza_Click(object sender, EventArgs e)
+        {
+            stazione1.posizioneSicurezza();
+            AggiornaInterfaccia();
+        }
+        private void Applica_Click(object sender, EventArgs e)
+        {
+            gru1.AltezzaMassima = 700 - Convert.ToInt32(Altezza_Massima.Text);
+            gru1.AltezzaMinima = 700 - Convert.ToInt32(Altezza_Minima.Text);
+
+            if (gru1.AltezzaBraccio < gru1.AltezzaMassima)
+                gru1.AltezzaBraccio = gru1.AltezzaMassima;
+            else if (gru1.AltezzaBraccio > gru1.AltezzaMinima)
+                gru1.AltezzaBraccio = gru1.AltezzaMinima;
+
+            AggiornaInterfaccia();
+        }
         private void AggiornaInterfaccia()
         {
             Gancio.Top = gru1.AltezzaBraccio;
-        }
-
-        private void RESET_Click(object sender, EventArgs e)
-        {
-            gru1.AltezzaBraccio = gru1.AltezzaMinima;
-            AggiornaInterfaccia();
-        }
-
-        private void Applica_Click(object sender, EventArgs e)
-        {
-            gru1.AltezzaMassima = Convert.ToInt16(Altezza_Massima.Text);
-            gru1.AltezzaMinima = Convert.ToInt16(Altezza_Minima.Text);
-            Gancio.Top = gru1.AltezzaMinima; 
         }
     }
 }
