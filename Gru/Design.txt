@@ -8,11 +8,14 @@ class Gru
 	private int altezzaBraccio;
 
 	public int getAltezzaBraccio()
+	public int setAltezzaBraccio()
 	public string getNumeroSeriale()
 	public string getProduttore()
 	public int getPesoMassimo()
 	public int getAltezzaMassima()
 	public int getAltezzaMinima()
+	public int setAltezzaMassima()
+	public int setAltezzaMinima()
 	
 	public void alzaBraccio()
 	public void abbassaBraccio()
@@ -24,6 +27,8 @@ class Gru
 class Stazione
 {
 	private Gru gru;
+	public Gru getGru;
+	public Gru setGru;
 	
 	private string numeroSeriale;
 
@@ -33,5 +38,5 @@ class Stazione
 	public void abbassaBraccio()
 	public void posizioneSicurezza()
 
-	public Stazione(string numeroSeriale)
+	public Stazione(string numeroSeriale, Gru gru)
 }
