@@ -7,6 +7,8 @@ namespace Implementazione
 
         public Form1()
         {
+            this.AutoScaleMode = AutoScaleMode.Dpi;
+
             InitializeComponent();
 
             gru1 = new Gru("1", "1", 3, 170, 420);
