@@ -50,3 +50,4 @@ C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\Gru\Gru\Implementazione\Imple
 C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\Gru\Gru\Implementazione\Implementazione\obj\Debug\net8.0-windows\Implementazione.pdb
 C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\Gru\Gru\Implementazione\Implementazione\obj\Debug\net8.0-windows\Implementazione.genruntimeconfig.cache
 C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\Gru\Gru\Implementazione\Implementazione\obj\Debug\net8.0-windows\ref\Implementazione.dll
+C:\Users\taiocchi.21206\C#\Gru\Gru\Implementazione\Implementazione\obj\Debug\net8.0-windows\Implementazione.Properties.Resources.resources
