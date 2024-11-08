@@ -41,15 +41,22 @@ namespace Implementazione
         }
         private void Applica_Click(object sender, EventArgs e)
         {
-            gru1.AltezzaMassima = 700 - Convert.ToInt32(Altezza_Massima.Text);
-            gru1.AltezzaMinima = 700 - Convert.ToInt32(Altezza_Minima.Text);
+            if(Convert.ToInt32(Altezza_Minima.Text) <= Convert.ToInt32(Altezza_Massima.Text))
+            {
+                gru1.AltezzaMassima = 700 - Convert.ToInt32(Altezza_Massima.Text);
+                gru1.AltezzaMinima = 700 - Convert.ToInt32(Altezza_Minima.Text);
 
-            if (gru1.AltezzaBraccio < gru1.AltezzaMassima)
-                gru1.AltezzaBraccio = gru1.AltezzaMassima;
-            else if (gru1.AltezzaBraccio > gru1.AltezzaMinima)
-                gru1.AltezzaBraccio = gru1.AltezzaMinima;
+                if (gru1.AltezzaBraccio < gru1.AltezzaMassima)
+                    gru1.AltezzaBraccio = gru1.AltezzaMassima;
+                else if (gru1.AltezzaBraccio > gru1.AltezzaMinima)
+                    gru1.AltezzaBraccio = gru1.AltezzaMinima;
 
-            AggiornaInterfaccia();
+                AggiornaInterfaccia();
+            }
+            else
+            {
+                MessageBox.Show("ERRORE!! -- L'altezza minima è maggiore di quella massima!!");
+            }
         }
         private void AggiornaInterfaccia()
         {
