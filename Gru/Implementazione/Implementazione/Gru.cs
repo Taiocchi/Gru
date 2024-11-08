@@ -9,6 +9,13 @@
         private int altezzaMinima;
         private int altezzaBraccio;
 
+        private Stazione stazione;
+
+        public Stazione Stazione
+        {
+            get { return stazione; }
+            set { stazione = value; }
+        }
         public int AltezzaBraccio
         {
             get { return altezzaBraccio; }

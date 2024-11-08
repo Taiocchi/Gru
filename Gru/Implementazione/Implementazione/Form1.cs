@@ -14,6 +14,8 @@ namespace Implementazione
             gru1 = new Gru("1", "1", 3, 170, 420);
 
             stazione1 = new Stazione("1", gru1);
+
+            gru1.Stazione = stazione1;
         }
 
         private void Form1_Load(object sender, EventArgs e)
